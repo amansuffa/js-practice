@@ -12,7 +12,7 @@ const score = 100
 const scoreValue = 100.3
 
 const isLoggedIn = false
-const outsideTemp = null
+const outsideTemp = null // datatype => Object
 let userEmail;
 
 const id = Symbol('123')
