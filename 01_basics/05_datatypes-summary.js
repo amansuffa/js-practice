@@ -38,6 +38,26 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof myFunction); // datatype => object function
+// console.log(typeof myFunction); // datatype => object function
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ############################### Memory In JS ################################
+// Stack (Primitive), Heap (Non-Primitive)
+
+let country = "Faisalabad";
+let anotherCountry = country;  // make copy
+anotherCountry = "Lahore";
+console.log(country);
+console.log(anotherCountry);
+
+
+let user = {
+    email:"user@gmail.com",
+    pw:123
+};
+let anotherUser = user;  // refer to original data
+anotherUser.email = "newuser@gmail.com";
+console.log(user.email);
+console.log(anotherUser.email);
