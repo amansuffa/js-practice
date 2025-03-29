@@ -4,7 +4,7 @@ const repoCount = 50;
 // console.log(firstName + repoCount + "Value");
 
 
-const gameName = new String('ameerhamza')
+const gameName = new String('ameerhamza') // type of "object"
 
 
 // console.log(gameName[0]);
