@@ -18,7 +18,7 @@
 //         break;
 //     case 3:
 //         console.log("march");
-//         break; // break agr use nahi kiya to next case bhi chalega except default
+//         break; // break agr use nahi kiya to uske aage sara code chalega 
 //     case 4:
 //         console.log("april");
 //         break;
